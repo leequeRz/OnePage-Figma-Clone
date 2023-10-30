@@ -1,12 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;300&family=Caveat&family=Libre+Baskerville&family=Poppins:wght@600&family=Roboto:wght@300;400&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Catamaran', sans-serif;
-font-family: 'Caveat', cursive;
-font-family: 'Libre Baskerville', serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Roboto', sans-serif;
+  font-family: 'Caveat', cursive;
+  font-family: 'Libre Baskerville', serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -36,7 +38,6 @@ font-family: 'Roboto', sans-serif;
 }
 
 .logo {
-  font-family: Roboto;
   font-size: 26px;
   font-style: normal;
   font-weight: 900;
@@ -144,7 +145,7 @@ margin-bottom: 30px;
     grid-template-columns: 1fr 1fr; /* Two columns: left and right */
     grid-gap: 50px; /* Adjust the gap as needed */
     align-items: center;
-  
+    margin-bottom: 150px;
 }
 
 .s1-left-left{
@@ -161,4 +162,18 @@ margin-bottom: 30px;
 
 .s1-right{
     padding-left: 150px;
+}
+
+.section2{
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns: left and right */
+    grid-gap: 50px; /* Adjust the gap as needed */
+    align-items: center;
+    padding-top: 150px;
+    margin-bottom: 150px;
+}
+
+.s2-right{
+    margin-right: 70px;
+    padding-right: 150px;
 }
